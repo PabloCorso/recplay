@@ -1,18 +1,19 @@
 {
   "name": "recplay",
   "version": "0.0.0",
-  "description": "Elasto Mania level/replay interpreter/renderer in JS/canvas",
+  "description": "Another ES6 port of recplay",
   "devDependencies": {
     "browserify": "^16.5.1",
     "typescript": "^3.9.5"
   },
+  "main": "src/controller.js",
   "scripts": {
     "amd-fake": "tsc && browserify lib/amd-fake.js -o amd.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maxdamantus/recplay.git"
+    "url": "git+https://github.com/PabloCorso/recplay.git"
   },
-  "author": "Maxdamantus",
+  "author": "Pablo Corso",
   "license": "ISC"
 }
